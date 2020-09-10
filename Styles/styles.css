@@ -1,0 +1,127 @@
+body {
+  background: #AFEEEE;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  font-size: 562.5%; /*100%=16px or 16px=1em(old way)... inherited(to ignore inheritance use'rem')*/
+  margin-top: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+.sub-head{
+  color: #66BFBF;
+  font-weight: normal;
+}
+h2 {
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+.top {
+  background: #E0FFFF;
+  position: relative;
+  padding-top: 100px;
+}
+
+.skill-row {
+  width: 50%;
+margin: 100px auto 100px auto; /*by setting margin to auto, it will set the margin to what default setting on all sides*/
+  text-align: left;
+}
+.middle-container {
+  margin: 100px 0; /*top&bottom, left&right*/
+}
+.bottom-container {
+  background: #E0FFFF;
+  padding: 50px 0 20px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #48D1CC;
+}
+
+.computer {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chilly {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+/*dont use float for positioning, but only for wrapping*/
+.about {
+    width: 30%;
+    margin: auto;
+}
+
+.contact {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #48D1CC;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+
+.btn {
+position: relative;
+display: inline-block;
+padding: 15px 30px;
+color: #2196f3;
+text-transform: uppercase;
+letter-spacing: 4px;
+text-decoration: none;
+font-size: 24px;
+overflow: hidden;
+transition: 0.2s;
+}
+
+.btn:hover {
+  color: #255784;
+background: #2196f3;
+box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
